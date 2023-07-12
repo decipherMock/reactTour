@@ -5,13 +5,18 @@ import ITservice4 from "../assets/04.jpg";
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 
+
+
 const Destination = () => {
   return (
     <div className="destination">
       <h1>Popular Destinations</h1>
       <p>Tours give you the opportunity to see a lot, within a time frame</p>
 
+
       <DestinationData
+      className="first-des"
+       
         heading="Fully managed IT solutions & support"
         text="ITVET is a world-leading provider of 
         reliable and secure IT solutions and support.
@@ -26,8 +31,11 @@ const Destination = () => {
       />
 
       <DestinationData
+       className="first-des-reverse"
         heading="Who we work with"
-        text="We specialise in IT solutions and support for the commercial property industry. We understand the unique challenges the industry faces and the best IT solutions to overcome them."
+        text="We specialise in IT solutions and support for the commercial 
+        property industry. We understand the unique challenges the industry 
+        faces and the best IT solutions to overcome them."
         img1={ITservice3}
         img2={ITservice4}
       />
