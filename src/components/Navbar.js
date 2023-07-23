@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import LogoImg from "../assets/Datasus Technology.png";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -11,7 +12,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Trippy</h1>
+        <h1 className="navbar-logo"><img src={LogoImg} alt="datasus-logo" /></h1>
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
@@ -24,7 +25,7 @@ class Navbar extends Component {
             return (
               <li key={index}>
                 <Link className={item.cName} to={item.url}>
-                  <i className={item.icon}></i>
+                  
                   {item.title}
                 </Link>
               </li>

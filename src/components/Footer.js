@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="footer">
            <div className="top">
               <div>
-                <h1>Trippy</h1>
-                <p>Choose your favourite destinations</p>
+                <h1>Datasus.Tech</h1>
+                <p>Closer Than You Think</p>
               </div>
               <div>
                 <a href="/">
@@ -26,18 +26,18 @@ const Footer = () => {
          <div className="bottom">
             <div>
                 <h4>Projects</h4>
-                <a href="/">ChangeLog</a>
-                <a href="/">Status</a>
-                <a href="/">License</a>
+                <a href="/">Medbox</a>
+                <a href="/">Medcord</a>
+                <a href="/">Remotecare</a>
                 <a href="/">All Versions</a>
             </div>
 
             <div>
                 <h4>Community</h4>
                 <a href="/">Github</a>
-                <a href="/">Issues</a>
-                <a href="/">Projects</a>
-                <a href="/">Tiwtter</a>
+                <a href="/">SDG's</a>
+                <a href="/">Healthcare</a>
+                <a href="/">Mobile App</a>
             </div>
             <div>
                 <h4>Help</h4>
@@ -48,8 +48,8 @@ const Footer = () => {
             </div>
             <div>
                 <h4>Others</h4>
-                <a href="/">ChangeLog</a>
-                <a href="/">Status</a>
+                <a href="/">Pharmacies</a>
+                <a href="/">Medication API's</a>
                 <a href="/">License</a>
                 <a href="/">All Versions</a>
             </div>

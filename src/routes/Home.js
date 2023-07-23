@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
+import HomeImg from "../assets/Health-law-telehealth-1.jpg";
+
 
 function Home() {
   return (
@@ -11,10 +13,10 @@ function Home() {
 
       <Hero
         cName="hero"
-        heroImg="https://images.unsplash.com/photo-1464211892349-8e50a8045e67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-        title="Your Journey Your Story"
+        heroImg={HomeImg}
+        title="Advancing Healthcare with Tech Innovations."
         text="Choose Your Fovourite Destination"
-        buttonText="Travel Plan"
+        buttonText="Our Projects"
         url="/"
         btnClass="show"
       />
@@ -22,7 +24,7 @@ function Home() {
       <Destination />
       <Trip />
       <Footer />
-      
+
     </>
   );
 }
